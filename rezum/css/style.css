@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald';
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: wheat;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1 span {
+    font-size: 32px;
+}
+
+main{
+    position: relative;
+}
+
+.photo-wrapper{
+    border: 2px solid black;
+    line-height: 0;
+    padding: 5px;
+    height: fit-content;
+}
+
+.photo {
+    width: 300px;
+}
+
+.titles {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-stroke {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    background: black;
+    color: wheat;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.info{
+    max-width: 60%;
+}
+
+.lists{
+    list-style-type: none;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lists li {
+    font-size: 24px;
+}
+
+.lists li a {
+    color: red;
+}
+
+.description{
+    padding: 40px 0;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.absolute{
+    padding: 10px 36px;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%) rotate(-30deg);
+    top: 270px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: red;
+    border: 2px solid red;
+}
