@@ -94,7 +94,7 @@ main{
     text-transform: uppercase;
     color: red;
     border: 2px solid red;
-
+white-space: nowrap;
 }
 @media(width < 690px) {
     .photo{
@@ -107,3 +107,4 @@ main{
         top: 459px;
     }
 }
+
