@@ -94,4 +94,16 @@ main{
     text-transform: uppercase;
     color: red;
     border: 2px solid red;
+
+}
+@media(width < 690px) {
+    .photo{
+        width: 150px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .absolute {
+        top: 459px;
+    }
 }
